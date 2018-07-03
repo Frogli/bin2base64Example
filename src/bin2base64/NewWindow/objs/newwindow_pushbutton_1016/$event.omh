@@ -1,0 +1,5 @@
+On evClick     ;; Event Parameters - pRow( Itemreference )
+	Calculate charValue as 'Hello World'
+	Do chartoutf8(charValue) Returns binValue
+	Do bintobase64(binValue) Returns base64Bin
+	Do utf8tochar(base64Bin) Returns base64value
